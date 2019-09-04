@@ -1,3 +1,4 @@
 Personal website
 
-Using Strata by HTML5UP 
+
+Inspired on Strata by HTML5UP
