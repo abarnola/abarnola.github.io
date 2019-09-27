@@ -23,17 +23,18 @@
 
 .avatar {
     margin: 0 0 1em 0;
-    width: 6.25em;
-    border-radius: 100%;
+    width: 15em;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #title {
     font: inherit;
-	line-height: 1.75em;
+	line-height: 2em;
     margin: 0;
-    font-weight: 400
+    font-weight: 400;
+    font-size: 1.5em;
 }
 
 #title strong {
@@ -79,11 +80,24 @@ body {
     text-align: center;
 }
 
+.project-image {
+    max-width: 100%;
+    border-radius: 0.1em;
+}
+
 #two {
     border-top: solid 2px #efefef;
     margin: 4em 0 0 0;
     padding: 4em 0 0 0;
 }
+
+#three {
+    border-top: solid 2px #efefef;
+    margin: 4em 0 0 0;
+    padding: 4em 0 0 0;
+}
+
+
 
 /* Responsiveness */
 
