@@ -11,7 +11,7 @@
     background-position: top left, top left;
     background-repeat: repeat, no-repeat;
     background-size: auto, 150%;
-    padding: 8em 4em;
+    padding: 8em 4em 2em 4em;
     text-align: right;
     align-items: flex-end;
     justify-content: space-between;
@@ -29,6 +29,14 @@
 .social {
     color: #efefef86;
     margin: 3px;
+}
+
+.pimg:hover {
+    transition: opacity 0.2s ease-in-out;
+    border: solid 3px;
+    color: #fff;
+    content: 'View code';
+    display: inline-block
 }
 
 .avatar {
